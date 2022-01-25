@@ -47,7 +47,7 @@ body{
 }
 .satyObrazek{
     max-width:50%;
-    display:none;
+    filter:opacity(0%);
 }
 .satyL{
     justify-self: end;
