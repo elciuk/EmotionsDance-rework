@@ -81,6 +81,10 @@ body{
     background-color:transparent;
     box-shadow: rgb(0, 0, 0) 1px 3px 10px 0px;
 }
+#btn1, #btn3{
+    position:relative;
+    left:1px;
+}
 .button:hover{
     padding:0.9em;
     margin:0.6em 0px;
@@ -91,6 +95,7 @@ body{
     font-size:130%;
     font-weight:700;
     font-family:Arial, Verdana, Helvetica, sans-serif;
+    text-align:center;
 }
 .divider{
     width:50%;
