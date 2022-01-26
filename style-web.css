@@ -110,6 +110,13 @@ body{
     color:rgb(195,195,195);
     
 }
+.slogan{
+    text-align:center;
+    color:white;
+    font-family: "Dancing Script", cursive;
+    margin:0px;
+    font-size:3vh;
+}
 
 @media(max-width:845px){
     .logo{
