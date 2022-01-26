@@ -76,19 +76,18 @@ body{
     border-radius: 7px;
     border-width:2px;
     border-style:solid;
-    padding:0.7em;
-    margin-bottom:0.5em;
-    margin-top:0.5em;
+    padding:1em;
+    margin:0.5em auto;
     background-color:transparent;
     box-shadow: rgb(0, 0, 0) 1px 3px 10px 0px;
 }
 .button:hover{
-    padding:0.6em;
+    padding:0.9em;
     margin:0.6em 0px;
 }
 .button a{
     text-decoration:none;
-    color:rgb(195, 195,195);
+    color:rgb(167,167,167);
     font-size:130%;
     font-weight:700;
     font-family:Arial, Verdana, Helvetica, sans-serif;
@@ -101,7 +100,7 @@ body{
     height:2px;
 }
 .footerInfo{
-    color:rgb(195,195,195);
+    color:rgb(167,167,167);
     font-size:85%;
     display:block;
     margin:auto;
@@ -109,7 +108,7 @@ body{
 }
 .footerInfo a{
     text-decoration:none;
-    color:rgb(195,195,195);
+    color:rgb(167,167,167);
     
 }
 .slogan{
