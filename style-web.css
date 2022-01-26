@@ -18,6 +18,7 @@ body{
     display:flex;
     flex-direction:column;
     justify-content: space-between;
+    margin:auto;
 }
 .vignette{
     position: fixed;
@@ -58,7 +59,7 @@ body{
 
 }
 .satyObrazek{
-    filter:drop-shadow(0px 0px 2vw rgba(255, 255, 255, 0.6));
+    filter:drop-shadow(0px 0px 1.5vw rgba(255, 255, 255, 0.6));
     max-height:50vh;
 }
 .satyL{
@@ -101,6 +102,7 @@ body{
 }
 .footerInfo{
     color:rgb(195,195,195);
+    font-size:85%;
     display:block;
     margin:auto;
     text-align:center;
@@ -115,7 +117,7 @@ body{
     color:white;
     font-family: "Dancing Script", cursive;
     margin:0px;
-    font-size:3vh;
+    font-size:3.5vh;
 }
 
 @media(max-width:845px){
