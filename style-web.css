@@ -143,3 +143,18 @@ body{
 
 
 }
+@media(min-width:2300px){
+    p{
+        font-size:200%;
+    }
+    .button a{
+        font-size:300%;
+    }
+    .button{
+        padding:1.5em;
+        border-width:4px;
+    }
+    .divider{
+        height:4px;
+    }
+}
