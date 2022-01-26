@@ -116,7 +116,7 @@ body{
     color:white;
     font-family: "Dancing Script", cursive;
     margin:0px;
-    font-size:3.5vh;
+    font-size:250%;
 }
 
 @media(max-width:845px){
