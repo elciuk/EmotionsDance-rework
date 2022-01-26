@@ -12,6 +12,13 @@ body{
 *{
     font-family: arial, verdana, helvetica, sans-serif;
 }
+
+.page{
+    min-height:96vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
 .vignette{
     position: fixed;
     top: 0;
@@ -101,6 +108,7 @@ body{
 .footerInfo a{
     text-decoration:none;
     color:rgb(195,195,195);
+    
 }
 
 @media(max-width:845px){
@@ -116,15 +124,14 @@ body{
     .satyObrazek{
         display:none;
     }
+    body{
+        min-height:95vh;
+    }
     .page{
         display:flex;
         flex-direction:column;
         justify-content:space-between;
-        min-height: 60vh;
-    }
-    .footer{
-        position:absolute;
-        bottom:2vh;
+        min-height: 95vh;
     }
 
 
