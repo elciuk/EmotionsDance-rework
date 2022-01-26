@@ -58,7 +58,7 @@ body{
 
 }
 .satyObrazek{
-    filter:drop-shadow(0px 0px 3vw rgba(255, 255, 255, 0.6));
+    filter:drop-shadow(0px 0px 2vw rgba(255, 255, 255, 0.6));
     max-height:50vh;
 }
 .satyL{
