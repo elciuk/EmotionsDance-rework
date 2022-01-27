@@ -147,14 +147,14 @@ body{
         display:none;
     }
     body{
-        min-height:95vh;
+        min-height:90vh;
         min-height:-webkit-fill-available;
     }
     .page{
         display:flex;
         flex-direction:column;
         justify-content:space-between;
-        min-height: 92vh;
+        min-height: 90vh;
     }
     .slogan{
         font-size:250%;
