@@ -11,6 +11,7 @@ body{
 }
 *{
     font-family: arial, verdana, helvetica, sans-serif;
+
 }
 
 .page{
@@ -118,10 +119,10 @@ body{
 }
 .slogan{
     text-align:center;
-    color:white;
+    color: rgb(167, 167, 167);
     font-family: "Dancing Script", cursive;
     margin:0px;
-    font-size:250%;
+    font-size:300%;
 }
 
 @media(max-width:845px){
@@ -146,6 +147,9 @@ body{
         flex-direction:column;
         justify-content:space-between;
         min-height: 92vh;
+    }
+    .slogan{
+        font-size:250%;
     }
 
 
