@@ -39,7 +39,7 @@ body{
 
 
 .logo{
-    width:32%;
+    width:100%;
     margin-left:auto;
     margin-right:auto;
     display:block;
@@ -48,6 +48,11 @@ body{
 }
 .logo:hover{
     filter:brightness(80%);
+}
+.logoLink{
+    width:33vw;
+    margin-left:auto;
+    margin-right: auto;
 }
 .container{
     display:grid;
@@ -127,7 +132,10 @@ body{
 
 @media(max-width:845px){
     .logo{
-        width:80%;
+        width:100%;
+    }
+    .logoLink{
+        width: 80%;
     }
     .divider{
         width:75%;
