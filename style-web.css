@@ -5,7 +5,7 @@ html{
 
 body{
     max-width:100%;
-    min-height:100vh;
+    min-height:95vh;
     min-height: -webkit-fill-available;
     background-color:rgb(25,25,25);
 }
@@ -14,7 +14,7 @@ body{
 }
 
 .page{
-    min-height:96vh;
+    min-height:95vh;
     display:flex;
     flex-direction:column;
     justify-content: space-between;
@@ -139,12 +139,13 @@ body{
     }
     body{
         min-height:95vh;
+        min-height:-webkit-fill-available;
     }
     .page{
         display:flex;
         flex-direction:column;
         justify-content:space-between;
-        min-height: 95vh;
+        min-height: 92vh;
     }
 
 
