@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="respo" >
     <head>
          <meta name="google-site-verification" content="??????????????????" />
          <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,9 +22,11 @@
         <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet"> 
         <link rel="icon" href="http://www.amfi.cz/files/emotionsd/favicon-3.ico" type="image/x-icon">
         <link rel="stylesheet" type="text/css" href="style-web.css"/>
-     
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+        
+
     </head>
-    <body>
+    <body class="respo">
         <div class="vignette"></div>
         <div class="page">
          
@@ -49,7 +51,19 @@
             </div>
 
         </div>
-    
+        <script>
+            const updateHeight = function(){
+                let setHeight = window.innerHeight + "px";
+                $("html").css("min-height", setHeight);
+                $("body").css({"min-height": setHeight, "margin": "0px"});
+                $(".page").css("min-height", setHeight);
+                $("vignette").css("min-height", setHeight);
+            }
+            $(document).ready(updateHeight());
+            $(document).resize(updateHeight());
+    </script>
 
     </body>
+  
+ 
 </html>
