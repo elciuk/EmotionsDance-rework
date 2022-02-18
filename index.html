@@ -56,10 +56,15 @@
         <script>
             const updateHeight = function(){
                 let setHeight = window.innerHeight + "px";
+                let setWidth = window.innerWidth + "px";
                 $("html").css("min-height", setHeight);
                 $("body").css({"min-height": setHeight, "margin": "0px"});
                 $(".page").css("min-height", setHeight);
                 $("vignette").css("min-height", setHeight);
+                $("html").css("min-width", setWidth);
+                $("body").css({"min-width": setWidth});
+                $(".page").css("min-width", setWidth);
+                $("vignette").css("min-width", setWidth);
             }
             $(document).ready(updateHeight());
             $(document).resize(updateHeight());
