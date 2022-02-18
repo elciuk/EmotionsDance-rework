@@ -65,6 +65,7 @@
             $(document).ready(updateHeight());
             $(document).onresize(updateHeight());
             $(document).resize(updateHeight());
+            screen.orientation.onchange = updateHeight();
     </script>
 
     </body>
